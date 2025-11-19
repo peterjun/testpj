@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Are You Gay?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="background-accent accent-one"></div>
+    <div class="background-accent accent-two"></div>
+    <main class="shell">
+      <article class="card">
+        <header>
+          <p class="eyebrow">A tiny vibe check</p>
+          <h1>Are you gay?</h1>
+          <p class="subtitle">
+            No judgments, only rainbows. Pick what feels right in the moment ✨
+          </p>
+        </header>
+        <section class="actions">
+          <button class="choice yes" data-choice="yes">Yes</button>
+          <button class="choice no" data-choice="no">No</button>
+        </section>
+        <section class="response" aria-live="polite">
+          <p id="response-text">Your answer goes here.</p>
+        </section>
+        <footer>
+          <p class="disclaimer">
+            Labels are just words. You are the only authority on you 🏳️‍🌈
+          </p>
+        </footer>
+        <div class="confetti-layer" aria-hidden="true"></div>
+      </article>
+    </main>
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
